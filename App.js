@@ -89,13 +89,12 @@ import React, { Component } from 'react'
 import {Text,View} from 'react-native'
 
 import CustomButton from './src/components/CustomButton'
+import SignUpScreen from './src/screens/SignUpScreen'
 
 export default class App extends Component {
   render() {
     return (
-      <View style={{flex:1,alignItems:'center',justifyContent:'center'}}>
-        <CustomButton title="CLick here" width={300} height={100} backgroundColor='lightskyblue'/>
-      </View>
+        <SignUpScreen/>
     )
   }
 }
