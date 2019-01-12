@@ -90,11 +90,12 @@ import {Text,View} from 'react-native'
 
 import CustomButton from './src/components/CustomButton'
 import SignUpScreen from './src/screens/SignUpScreen'
-
+import EmailSignUpScreen from './src/screens/EmailSignUpScreen'
+import LoginScreen from './src/screens/LoginScreen'
 export default class App extends Component {
   render() {
     return (
-        <SignUpScreen/>
+        <LoginScreen/>
     )
   }
 }
