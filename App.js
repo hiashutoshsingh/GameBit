@@ -11,6 +11,7 @@ import LogOutScreen from './src/screens/LogOutScreen';
 import FriendScreen from './src/screens/FriendScreen';
 import SettingScreen from './src/screens/SettingScreen';
 import NotificationScreen from './src/screens/NotificationScreen';
+import EventCreateScreen from './src/screens/EventCreateScreen';
 import AnalyticScreen from './src/screens/AnalyticScreen';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs';
@@ -23,6 +24,7 @@ const AuthStackNavigator = createStackNavigator({
   Friends: FriendScreen,
   Settings: SettingScreen,
   LogOut: LogOutScreen,
+  EventCreate: EventCreateScreen
   
 
 })
